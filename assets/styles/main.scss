@@ -1,0 +1,17 @@
+/** Main scss file */
+
+// Import Normalize
+@import 'normalize-scss/sass/normalize';
+
+// Import variable.scss
+@import '_variables';
+
+// Import base & components
+@import 'base';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+
+
+// Partial files
+@import 'about';

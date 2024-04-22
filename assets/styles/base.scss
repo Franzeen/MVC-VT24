@@ -1,0 +1,49 @@
+/** Base.scss */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: $light-background-color;
+
+    main {
+        margin: 0 auto;
+        max-width: $max-width;
+        line-height: $line-height;
+        padding-bottom: $footer-height;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: $h1-font-size;
+    margin-bottom: $margin-bottom*2;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    margin-bottom: $margin-bottom;
+}
+
+h3 {
+    font-size: $h3-font-size;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: $font-size;
+    margin-bottom: 0;
+}

@@ -1,0 +1,32 @@
+/** header.scss */
+
+header {
+    border-bottom: 2px dotted black;
+}
+
+.pageTitle {
+    display: block;
+    text-align: center; 
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar a {
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 0.5rem;
+    min-width: 4rem;
+}
+  
+.navbar a:hover {
+    background-color: #666;
+}
